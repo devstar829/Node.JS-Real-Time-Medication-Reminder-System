@@ -1,0 +1,43 @@
+medication-reminder-system/
+│
+├── src/
+│   ├── controllers/
+│   │   ├── callController.js
+│   │   └── responseController.js
+│   │
+│   ├── services/
+│   │   ├── twilioService.js
+│   │   ├── ttsService.js
+│   │   └── sttService.js
+│   │
+│   ├── routes/
+│   │   └── apiRoutes.js
+│   │
+│   ├── models/
+│   │   └── callLog.js
+│   │
+│   ├── utils/
+│   │   ├── logger.js
+│   │   └── errorHandler.js
+│   │
+│   ├── config/
+│   │   └── config.js
+│   │
+│   └── app.js
+│
+├── tests/
+│   ├── integration/
+│   │   └── callFlow.test.js
+│   │
+│   └── unit/
+│       ├── twilioService.test.js
+│       ├── ttsService.test.js
+│       └── sttService.test.js
+│
+├── docs/
+│   └── API.md
+│
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
